@@ -13,11 +13,11 @@ public class Customer {
     @Id
     private String id;
 
-    private String firstName;
-    private String lastName;
-    private LocalDateTime time;
+    private String fullName;
+    private CustomerType type;
+    private LocalDateTime createdAt;
 
     public Customer() {
-        time = LocalDateTime.now();
+        createdAt = LocalDateTime.now();
     }
 }
