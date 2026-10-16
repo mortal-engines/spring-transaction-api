@@ -23,7 +23,7 @@ src/
     │       ├── controllers/
     │       ├── data/
     │       │   ├── models/
-    │       │   └── repositories/
+    │       │   └── repositories/w
     │       ├── dtos/
     │       ├── services/
     │       └── TransactionApiApplication.java
